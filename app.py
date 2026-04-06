@@ -6,7 +6,7 @@ import time
 # --- CONFIGURATION ---
 # Replace 'YOUR_API_KEY' with your actual Gemini API Key
 genai.configure(api_key="AIzaSyAZPGpr6085AKfSRSCS9sqFYXL0oTm0B2c")
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini--1.5-flash')
 
 # Initialize Session States
 if 'page' not in st.session_state:
