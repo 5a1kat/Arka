@@ -9,8 +9,6 @@ genai.configure(api_key="AIzaSyAZPGpr6085AKfSRSCS9sqFYXL0oTm0B2c")
 # Option A: Fastest and Free (Best for Quizzes)
 model = genai.GenerativeModel('gemini-3-flash-preview')
 
-# Option B: Most Intelligent (If you have a paid tier)
-model = genai.GenerativeModel('gemini-3.1-pro-preview')
 
 # Initialize Session States
 if 'page' not in st.session_state:
