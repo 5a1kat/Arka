@@ -5,7 +5,7 @@ import time
 
 # --- CONFIGURATION ---
 # Replace 'YOUR_API_KEY' with your actual Gemini API Key
-genai.configure(api_key="AIzaSyAZPGpr6085AKfSRSCS9sqFYXL0oTm0B2c")
+genai.configure(api_key="AIzaSyBpnN3shWQdsS87erYYbngFHRqLh5unxAo")
 # Option A: Fastest and Free (Best for Quizzes)
 model = genai.GenerativeModel('gemini-3-flash-preview')
 
